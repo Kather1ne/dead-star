@@ -1,0 +1,359 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: #11e8bb;
+  /* Old browsers */
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #11e8bb 0%, #8200c9 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(#FF000078 0%, #0245B1 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#11e8bb', endColorstr='#8200c9',GradientType=0);
+  /* IE6-9 */
+}
+
+.text-container {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+
+.text-box {
+  position: absolute;
+  left: 16vw;
+  left: 33.48vh;
+  top: -49vh;
+}
+
+.right {
+  right: 39.5vw;
+  right: 73.44vh;
+  left: initial;
+}
+
+.left {
+  z-index: -1;
+}
+
+.shadow {
+  background: transparent;
+  width: 3.125vw;
+  height: 3.125vw;
+  -webkit-box-shadow: 100px 10px 50px black;
+          box-shadow: 100px 10px 50px black;
+  position: absolute;
+  top: 52vh;
+  right: 1.30208vw;
+}
+
+.shadow-big {
+  width: 5.72917vw;
+  height: 5.72917vw;
+  top: 50%;
+  right: 30px;
+  -webkit-box-shadow: 170px 10px 70px black;
+          box-shadow: 170px 10px 70px black;
+  opacity: 0.3;
+}
+
+.text {
+  color: white;
+  font: 61.66667vh/73.98148vh "FixtureUltraItalic-Regular", sans-serif;
+  position: absolute;
+  left: 0;
+  top: -5vh;
+}
+
+.stroke-text {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
+  top: 6vh;
+  left: -9vw;
+}
+
+.right .text {
+  top: 15vh;
+}
+
+.right .stroke-text {
+  left: 8vw;
+  top: 6vh;
+}
+
+.line {
+  width: 1px;
+  opacity: 0.3;
+  height: 100%;
+  background: #fff;
+  position: absolute;
+  top: 0;
+  left: 25%;
+  z-index: -1;
+}
+
+.vertical2 {
+  left: 75%;
+}
+
+.horizontal {
+  left: 0;
+  top: 25%;
+  height: 1px;
+  width: 100%;
+}
+
+.horizontal2 {
+  top: 75%;
+}
+
+.cross {
+  background: #fff;
+  width: 5px;
+  height: 34px;
+  position: absolute;
+  top: 10.8vh;
+  left: calc(25% - 2px);
+}
+
+.cross:nth-child(2) {
+  top: 10.8vh;
+  left: calc(75% - 2px);
+}
+
+.cross:nth-child(3) {
+  top: initial;
+  bottom: 9.7vh;
+  left: calc(25% - 2px);
+}
+
+.cross:nth-child(4) {
+  top: initial;
+  bottom: 9.7vh;
+  left: calc(75% - 2px);
+}
+
+.cross::before {
+  content: '';
+  background: #fff;
+  display: block;
+  position: absolute;
+  width: 34px;
+  height: 5px;
+  top: calc(50% - 2px);
+  left: -15px;
+}
+
+.rhomb {
+  width: 20px;
+  height: 20px;
+  border: 5px solid white;
+  -webkit-transform: translate(-50%, -50%) rotate(45deg);
+          transform: translate(-50%, -50%) rotate(45deg);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.burger-menu {
+  position: absolute;
+  top: 0;
+  left: 50px;
+  padding: 4.16667vh 0;
+  cursor: pointer;
+}
+
+.burger-menu span {
+  width: 25px;
+  height: 4px;
+  background: white;
+  display: block;
+  margin-bottom: 7px;
+}
+
+.burger-menu span:nth-child(2) {
+  width: 40px;
+}
+
+.burger-menu:hover span:nth-child(1) {
+  -webkit-animation: hoverTop 0.5s ease-in-out;
+          animation: hoverTop 0.5s ease-in-out;
+}
+
+.burger-menu:hover span:nth-child(2) {
+  -webkit-animation: hoverBottom 0.5s ease-in-out;
+          animation: hoverBottom 0.5s ease-in-out;
+}
+
+@-webkit-keyframes hoverTop {
+  from {
+    width: 25px;
+  }
+  50% {
+    width: 40px;
+  }
+  to {
+    width: 25px;
+  }
+}
+
+@keyframes hoverTop {
+  from {
+    width: 25px;
+  }
+  50% {
+    width: 40px;
+  }
+  to {
+    width: 25px;
+  }
+}
+
+@-webkit-keyframes hoverBottom {
+  from {
+    width: 40px;
+  }
+  50% {
+    width: 25px;
+  }
+  to {
+    width: 40px;
+  }
+}
+
+@keyframes hoverBottom {
+  from {
+    width: 40px;
+  }
+  50% {
+    width: 25px;
+  }
+  to {
+    width: 40px;
+  }
+}
+
+.buttons {
+  font-family: 'Druk Wide';
+  font-size: 27px;
+  line-height: 35px;
+  color: white;
+  cursor: pointer;
+  -webkit-transition: opacity 0.05s ease-out, -webkit-transform 0.25s;
+  transition: opacity 0.05s ease-out, -webkit-transform 0.25s;
+  transition: opacity 0.05s ease-out, transform 0.25s;
+  transition: opacity 0.05s ease-out, transform 0.25s, -webkit-transform 0.25s;
+  will-change: transform;
+}
+
+.buttons:hover {
+  opacity: 0.6;
+}
+
+.btn-prev::before,
+.btn-next::after {
+  content: '';
+  position: absolute;
+  background: url("./arrow.svg");
+  will-change: transform;
+  display: inline-block;
+  vertical-align: sub;
+  width: 3.05556vh;
+  height: 1.71875vw;
+  left: -2.76042vw;
+  margin-right: 1.04167vw;
+  -webkit-transition: -webkit-transform 0.25s ease-out;
+  transition: -webkit-transform 0.25s ease-out;
+  transition: transform 0.25s ease-out;
+  transition: transform 0.25s ease-out, -webkit-transform 0.25s ease-out;
+}
+
+.btn-next::after {
+  margin-left: 1.04167vw;
+  margin-right: 0;
+  left: initial;
+  right: -4.90741vh;
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+.btn-prev {
+  top: 12.87037vh;
+  left: 2.60417vw;
+  margin-left: 4.90741vh;
+  position: absolute;
+}
+
+.btn-prev:hover {
+  -webkit-transform: translate3d(5%, 0, 1px);
+          transform: translate3d(5%, 0, 1px);
+}
+
+.btn-prev:hover::before {
+  -webkit-transform: translate3d(-100%, 0, 1px);
+          transform: translate3d(-100%, 0, 1px);
+}
+
+.btn-next {
+  bottom: 10.27778vh;
+  right: 2.60417vw;
+  margin-right: 4.90741vh;
+  position: absolute;
+}
+
+.btn-next:hover {
+  -webkit-transform: translate3d(-5%, 0, 1px);
+          transform: translate3d(-5%, 0, 1px);
+}
+
+.btn-next:hover::after {
+  -webkit-transform: scaleX(-1) translate3d(-100%, 0, 1px);
+          transform: scaleX(-1) translate3d(-100%, 0, 1px);
+}
+
+.contacts {
+  position: absolute;
+  right: 2.60417vw;
+  top: 4.16667vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contacts .buttons {
+  margin-left: 2.60417vw;
+}
+
+.social {
+  position: absolute;
+  left: 2.60417vw;
+  bottom: 4.16667vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.social::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 7.8125vw;
+  height: 5.37037vh;
+  background: url("./01.png");
+  position: absolute;
+  bottom: 5.55556vh;
+}
+
+.social .buttons {
+  margin-right: 1.04167vw;
+}
+
+canvas {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+/*# sourceMappingURL=style.css.map */
