@@ -1,0 +1,10 @@
+@function toVw($size) {
+    @return #{$size/19.2 + "vw"};
+}
+@function toVh($size) {
+    @return #{$size/10.8 + "vh"};
+}
+
+@function toVhI($size) {
+    @return #{$size*10.8/ 100 + "vh"};
+}
