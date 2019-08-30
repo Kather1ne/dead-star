@@ -233,12 +233,12 @@ body {
 .btn-next::after {
   content: '';
   position: absolute;
-  background: url("./arrow.svg");
+  background: url("./arrow.svg") no-repeat;
   will-change: transform;
   display: inline-block;
   vertical-align: sub;
   width: 3.05556vh;
-  height: 1.71875vw;
+  height: 100%;
   left: -2.76042vw;
   margin-right: 1.04167vw;
   -webkit-transition: -webkit-transform 0.25s ease-out;
