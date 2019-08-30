@@ -316,7 +316,7 @@ body {
   content: '';
   position: absolute;
   display: block;
-  width: 150px;
+  width: 160px;
   height: 5.37037vh;
   background: url("./01.png") no-repeat top/contain;
   position: absolute;
