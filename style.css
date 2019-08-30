@@ -1,12 +1,12 @@
+@font-face {
+  font-family: "Druk Wide";
+  src: url("DrukWideCyr-Medium.woff2") format("woff2"), url("DrukWideCyr-Medium.woff") format("woff");
+}
+
 body {
   margin: 0;
   height: 100vh;
-  background: #11e8bb;
-  /* Old browsers */
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #11e8bb 0%, #8200c9 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: radial-gradient(#FF000078 0%, #0245B1 100%);
+  background: radial-gradient(#FF000080 10%, #0245B1 100%), radial-gradient(transparent 60%, black 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#11e8bb', endColorstr='#8200c9',GradientType=0);
   /* IE6-9 */
@@ -34,8 +34,6 @@ body {
 .left {
   z-index: -1;
 }
-
-
 
 .text {
   color: white;
@@ -318,9 +316,9 @@ body {
   content: '';
   position: absolute;
   display: block;
-  width: 7.8125vw;
+  width: 140px;
   height: 5.37037vh;
-  background: url("./01.png");
+  background: url("./01.png") no-repeat top/contain;
   position: absolute;
   bottom: 5.55556vh;
 }
