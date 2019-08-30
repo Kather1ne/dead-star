@@ -1,0 +1,337 @@
+{
+    "asset": {
+        "copyright": "2019 (c) Adobe Inc.",
+        "generator": "Adobe Dimension - 0f6e5499e799b587980bc7fffec23aa1b46a8f6f",
+        "version": "2.0"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 24,
+            "type": "VEC3",
+            "max": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.06662999838590622
+            ],
+            "min": [
+                -0.009999999776482582,
+                -0.009999999776482582,
+                -0.06662999838590622
+            ]
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 24,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 24,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5125,
+            "count": 36,
+            "type": "SCALAR",
+            "max": [
+                23.0
+            ],
+            "min": [
+                0.0
+            ]
+        },
+        {
+            "bufferView": 4,
+            "componentType": 5126,
+            "count": 24,
+            "type": "VEC3",
+            "max": [
+                0.009999999776482582,
+                0.06662999838590622,
+                0.009999999776482582
+            ],
+            "min": [
+                -0.009999999776482582,
+                -0.06662999838590622,
+                -0.009999999776482582
+            ]
+        },
+        {
+            "bufferView": 5,
+            "componentType": 5126,
+            "count": 24,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 6,
+            "componentType": 5126,
+            "count": 24,
+            "type": "VEC3",
+            "max": [
+                0.06662999838590622,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "min": [
+                -0.06662999838590622,
+                -0.009999999776482582,
+                -0.009999999776482582
+            ]
+        },
+        {
+            "bufferView": 7,
+            "componentType": 5126,
+            "count": 24,
+            "type": "VEC3"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 288,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 288,
+            "byteLength": 288,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 576,
+            "byteLength": 192,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 768,
+            "byteLength": 144,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 912,
+            "byteLength": 288,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1200,
+            "byteLength": 288,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1488,
+            "byteLength": 288,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1776,
+            "byteLength": 288,
+            "target": 34962
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 2064,
+            "uri": "dead star 23-pivot_binary.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "perspective": {
+                "znear": 0.000018028986232820899,
+                "yfov": 0.6024156808853149,
+                "zfar": 2.0,
+                "aspectRatio": 1.3333333730697632
+            },
+            "type": "perspective",
+            "name": "render_camera"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.000026006191546912306,
+                    0.0,
+                    0.6038274168968201,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.6000000238418579
+            },
+            "name": "Material",
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Cube_N3D",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    },
+                    "indices": 3,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "Cube.001_Cube_N3D",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 2,
+                        "NORMAL": 5,
+                        "POSITION": 4
+                    },
+                    "indices": 3,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "Cube.003_Cube_N3D",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 6,
+                        "NORMAL": 7,
+                        "TEXCOORD_0": 2
+                    },
+                    "indices": 3,
+                    "material": 0
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "translation": [
+                0.4500935971736908,
+                0.4522641599178314,
+                0.4505627453327179
+            ],
+            "rotation": [
+                -0.12059047073125839,
+                0.379409521818161,
+                0.04995020851492882,
+                0.9159756302833557
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                0.9999999403953552
+            ],
+            "camera": 0,
+            "name": "render_camera_n3d"
+        },
+        {
+            "children": [
+                2,
+                3,
+                4
+            ],
+            "translation": [
+                0.0000938606244744733,
+                0.2622641623020172,
+                0.0005627059726975858
+            ],
+            "rotation": [
+                -7.710858085374639e-8,
+                3.855430108501423e-8,
+                2.5737993957246006e-14,
+                1.0
+            ],
+            "scale": [
+                4.637977600097656,
+                4.63797664642334,
+                4.637978553771973
+            ],
+            "name": "dead star 2"
+        },
+        {
+            "translation": [
+                -0.00002023650085902773,
+                -0.0021561128087341787,
+                -0.00012132728443248197
+            ],
+            "rotation": [
+                0.1719922423362732,
+                0.39145228266716006,
+                0.3417862355709076,
+                0.8368787169456482
+            ],
+            "scale": [
+                0.9999997615814209,
+                1.0000005960464478,
+                1.0000005960464478
+            ],
+            "mesh": 0,
+            "name": "Cube"
+        },
+        {
+            "translation": [
+                -0.00002023650085902773,
+                -0.0021561128087341787,
+                -0.00012132728443248197
+            ],
+            "rotation": [
+                0.1719922423362732,
+                0.39145228266716006,
+                0.3417862355709076,
+                0.8368787169456482
+            ],
+            "scale": [
+                0.9999997615814209,
+                1.0000005960464478,
+                1.0000005960464478
+            ],
+            "mesh": 1,
+            "name": "Cube.001_Cube"
+        },
+        {
+            "translation": [
+                -0.00002023650085902773,
+                -0.0021561128087341787,
+                -0.00012132728443248197
+            ],
+            "rotation": [
+                0.1719922423362732,
+                0.39145228266716006,
+                0.3417862355709076,
+                0.8368787169456482
+            ],
+            "scale": [
+                0.9999997615814209,
+                1.0000005960464478,
+                1.0000005960464478
+            ],
+            "mesh": 2,
+            "name": "Cube.003_Cube"
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                1
+            ],
+            "name": "scene"
+        }
+    ],
+    "scene": 0
+}
