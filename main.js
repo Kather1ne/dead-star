@@ -40,7 +40,7 @@ document.body.appendChild(renderer.domElement);
 
 var sceneCamera = null;
 var loader = new THREE.GLTFLoader();
-loader.load('./objects/dead star 23-pivot.gltf', function (gltf) {
+loader.load('dead star 23-pivot.gltf', function (gltf) {
     // console.log(gltf);
     _3Dobj = gltf.scene.children[0];
     _3Dobj.receiveShadow = true;
