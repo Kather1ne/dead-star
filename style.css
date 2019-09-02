@@ -2,6 +2,10 @@
   font-family: "Druk Wide";
   src: url("./DrukWideCyr-Medium.woff2") format("woff2"), url("./DrukWideCyr-Medium.woff") format("woff");
 }
+@font-face {
+  font-family: "FixtureUltraItalic-Regular";
+  src: url("FixtureUltraItalic-Medium.woff2") format("woff2"), url("FixtureUltraItalic-Medium.woff") format("woff");
+}
 
 body {
   margin: 0;
